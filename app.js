@@ -1,5 +1,5 @@
 //showing navbar when click menu on mobile view 
-const mobile = document.querySelector('menu-toggle');
+const mobile = document.querySelector('.menu-toggle');
 const mobileLink= document.querySelector('.sidebar')
 
 mobile.addEventListener("click",function(){
@@ -21,7 +21,7 @@ var step = 100;
 var stepFilter = 60;
 var scroling = true;
 
-$(".back").bind("click", functon(e){
+$(".back").bind("click", function(e){
     e.preventDefault();
     $(".highlight-wrapper").animate ({
         scrollLeft: "-=" + step + "px"
@@ -36,7 +36,9 @@ $(".next").bind("click", function(e){
 })
 
 
-//when click back and next on menu filters  
+//when click back and next on menu filters
+
+
 $(".back-menus").bind("click", function(e){
     e.preventDefault();
     $(".filter-wrapper").animate({
@@ -1533,5 +1535,4 @@ $(".next-menus").bind("click", function(e){
 
 
 
-})
 

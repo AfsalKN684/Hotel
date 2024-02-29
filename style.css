@@ -399,7 +399,19 @@ body {
     }
 }
     
-    
+@media only screen and (min-width: 600px){
+#new{
+display: none;
+}
+
+}
+.detail-card {
+    /* Add any specific styles for your cards */
+    border: 1px solid #ddd;
+    padding: 15px;
+    margin-bottom: 20px;
+    text-align: center;
+}
     
     
     
